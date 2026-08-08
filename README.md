@@ -1,7 +1,7 @@
 # Irish Retail Sales Performance Dashboard
 
 **Data Analyst portfolio project — Adham AlHers**
-[Live interactive dashboard](./dashboard/index.html) · [LinkedIn](#) · [Portfolio home](#)
+[Live interactive dashboard](./dashboard/index.html) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](#)
 
 ## Problem statement
 A multi-store Irish retailer needs visibility into which stores, categories, and periods are underperforming so management can reallocate stock and staff — instead of relying on manual, reactive monthly reporting.
