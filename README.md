@@ -46,5 +46,6 @@ Investigate Cork's Electronics range and stock depth and run a targeted in-store
 
 ## Business impact
 Replaces a monthly, backward-looking head-office report with a weekly self-serve dashboard store managers can act on directly — reducing decision lag and giving a concrete, quantified starting point for Cork's Q4 planning.
+
 ---
 *Dataset is simulated for portfolio purposes. Methodology (cleaning logic, SQL, and formulas) is fully reproducible — see the scripts and workbook above.*
