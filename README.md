@@ -46,9 +46,5 @@ Investigate Cork's Electronics range and stock depth and run a targeted in-store
 
 ## Business impact
 Replaces a monthly, backward-looking head-office report with a weekly self-serve dashboard store managers can act on directly — reducing decision lag and giving a concrete, quantified starting point for Cork's Q4 planning.
-
-## CV / LinkedIn bullet
-> Built an interactive Power BI-style sales dashboard analyzing €2.05M in simulated multi-store revenue across 4 Irish stores; identified a Cork-specific Electronics underperformance worth an estimated €26K/year in recoverable revenue.
-
 ---
 *Dataset is simulated for portfolio purposes. Methodology (cleaning logic, SQL, and formulas) is fully reproducible — see the scripts and workbook above.*
