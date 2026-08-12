@@ -1,7 +1,7 @@
 # Irish Retail Sales Performance Dashboard
 
 **Data Analyst portfolio project — Adham AlHers**
-[Live interactive dashboard](https://adhmkdre0155.github.io/Irish-Retail-Sales-Performance/) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](https://app.notion.com/p/Irish-Retail-Sales-Performance-Dashboard-3b63ac1ddec780c09d98f4a1e05f3579?source=copy_link)
+[Live interactive dashboard](https://adhmkdre0155.github.io/Irish-Retail-Sales-Performance/dashboard/index.html) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](https://app.notion.com/p/Irish-Retail-Sales-Performance-Dashboard-3b63ac1ddec780c09d98f4a1e05f3579?source=copy_link)
 
 ## Problem statement
 A multi-store Irish retailer needs visibility into which stores, categories, and periods are underperforming so management can reallocate stock and staff — instead of relying on manual, reactive monthly reporting.
