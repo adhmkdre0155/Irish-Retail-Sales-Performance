@@ -29,7 +29,7 @@ Python (pandas) for cleaning · SQL (SQLite) for analysis · Excel (openpyxl, fo
 ├── dashboard/
 │   └── index.html              # Self-contained interactive web dashboard
 └── docs/
-    └── insights_memo.docx      # One-page findings memo
+    └── insights_memo.pdf      # One-page findings memo
 ```
 
 ## Step-by-step approach
