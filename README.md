@@ -1,7 +1,7 @@
 # Irish Retail Sales Performance Dashboard
 
 **Data Analyst portfolio project — Adham AlHers**
-[Live interactive dashboard](./dashboard/index.html) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](#)
+[Live interactive dashboard](./dashboard/index.html) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](https://app.notion.com/p/Irish-Retail-Sales-Performance-Dashboard-3b63ac1ddec780c09d98f4a1e05f3579?source=copy_link)
 
 ## Problem statement
 A multi-store Irish retailer needs visibility into which stores, categories, and periods are underperforming so management can reallocate stock and staff — instead of relying on manual, reactive monthly reporting.
@@ -33,7 +33,7 @@ Python (pandas) for cleaning · SQL (SQLite) for analysis · Excel (openpyxl, fo
 ```
 
 ## Step-by-step approach
-1. **Clean** — `data/clean_data.py` standardizes three inconsistent date formats to ISO, removes 150 exact-duplicate rows, fills missing discounts as 0, and re-estimates the ~2% of missing profit values using a documented 65% cost-ratio assumption.
+1. **Clean** — [Clean Data](data/clean_data.py) standardizes three inconsistent date formats to ISO, removes 150 exact-duplicate rows, fills missing discounts as 0, and re-estimates the ~2% of missing profit values using a documented 65% cost-ratio assumption.
 2. **Analyze in SQL** — `sql/queries.sql` covers monthly revenue by store, the top 10 sub-categories by profit, and year-over-year growth by store using window functions (`LAG() OVER (PARTITION BY ...)`).
 3. **Model in Excel** — `excel/Irish_Retail_Sales_Dashboard.xlsx` uses `SUMIFS` formulas (not hardcoded values) across a Data → Store_Summary → Category_Summary → Dashboard structure, with a KPI-card header row and two charts (clustered store revenue, Pareto profit chart).
 4. **Visualize interactively** — `dashboard/index.html` is a self-contained (no external dependencies) HTML dashboard with a toggleable monthly trend line, a stacked category-by-store bar, a Pareto ranking, and the headline Cork finding, built to be hosted directly on GitHub Pages.
