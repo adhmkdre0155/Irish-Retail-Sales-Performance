@@ -10,7 +10,7 @@ A multi-store Irish retailer needs visibility into which stores, categories, and
 Retail chains in Ireland (multi-branch operators like Dunnes or SuperValu) run on thin margins. Weekly self-serve reporting removes decision lag that monthly head-office reports create.
 
 ## Dataset
-A simulated Irish multi-store dataset (6,500 cleaned transactions, Jan 2024–Dec 2025) across **Dublin, Cork, Galway, and Limerick**, spanning Electronics, Homeware, Grocery, and Clothing categories. Generated with a deliberate, realistic data-quality problem set (mixed date formats, ~150 duplicate rows, ~3–4% missing Discount/Profit values) so the cleaning step is genuine rather than decorative. See `/data/generate_data.py` for full generation logic and documented assumptions.
+A simulated Irish multi-store dataset (6,500 cleaned transactions, Jan 2024–Dec 2025) across **Dublin, Cork, Galway, and Limerick**, spanning Electronics, Homeware, Grocery, and Clothing categories. Generated with a deliberate, realistic data-quality problem set (mixed date formats, ~150 duplicate rows, ~3–4% missing Discount/Profit values) so the cleaning step is genuine rather than decorative. See [Generate Data](/data/generate_data.py) for full generation logic and documented assumptions.
 
 ## Tools
 Python (pandas) for cleaning · SQL (SQLite) for analysis · Excel (openpyxl, formula-driven) for the KPI/pivot dashboard · Chart.js for the interactive web dashboard.
